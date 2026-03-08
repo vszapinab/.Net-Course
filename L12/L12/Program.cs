@@ -25,7 +25,6 @@
                 }
             }
 
-            // Запись статистики и контента в output.txt
             using (StreamWriter writer = new StreamWriter(outputPath))
             {
                 writer.WriteLine($"Количество строк: {lineCount}");
